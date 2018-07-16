@@ -1,0 +1,241 @@
+/*SHARED STYLES-- these style attributes are shared across all the web pages--*/
+.icons{
+    width:50px;
+    height:50px;
+  }
+  .icons:hover{
+    opacity:0.5;
+  }
+  ul{
+    margin-left: 850px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  li{
+    color: #738769;
+    margin-top: 30px;
+    display: inline;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  li:hover{
+    opacity:0.5;
+  }
+  h1{
+    font-size: 40px;
+    float:left;
+    background-color: lightseagreen;
+    color:white;
+    padding:15px;
+    padding-bottom: 17px;
+    margin-left:60px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  h1:hover{
+    background-color: white;
+    color: #738769;
+  }
+  #content{
+    float:left;
+    background-image: url(../images/bg1.jpg);
+    width:700px;
+    margin-left: 60px;
+    padding:20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#5d7054;
+    font-weight: 500;
+  }
+  #connect{
+    float:left;
+    font-size: 30px;
+    background-image: url(../images/bg1.jpg);
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 30px;
+    width:270px;
+    text-align: center;     
+  }
+  
+  #foot{
+    text-align: center;
+    color:white;
+    background-color: #435140;
+    clear:both;
+    padding-bottom: 10px;
+  }
+  #foot p{
+    padding:30px;
+    color:white;
+  }
+  hr {
+      height: 4px;
+      background-color: #738769;;
+  }
+  h3{
+    color:#5d7054;
+    font-weight: 500;
+  }
+  a{
+    text-decoration: none;
+  }
+  #page {
+    background-image: url(../images/bg2.jpg);
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    background:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /*INDEX PAGE-- style attributes specific to the About page */
+  #profile{
+    width:200px;
+    height:300px;
+    float:left;
+    margin:10px 30px 10px 30px;
+    padding:1px;
+    border:2px solid #5d7054;
+  }
+  p{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#605f5f;
+    margin:10px;
+    line-height: 150%;
+    font-size: 16px;
+  }
+  a:hover{
+    opacity: 0.5;
+  }
+  
+  /*PORTFOLIO-- style attributes specific to the Portfolio page */
+  
+  #project1{
+  margin-left: 100px;
+  margin-top: 20px;
+  }
+  #project1:hover{
+    opacity: 0.5;
+  }
+  #project1 h3{
+    font-size: 30px;
+    height:30px;
+    width:130px;
+    padding: 20px;
+    color:purple;
+    margin-left:-10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  #crystal{
+  margin-left: 400px;
+  margin-bottom: 100px;
+  position: relative;
+  top: -70px;
+  }
+  #crystal:hover{
+    opacity: 0.5;
+  }
+  #crystal h3{
+    font-size: 30px;
+    height:30px;
+    width:180px;
+    padding: 20px;
+    color:purple;
+    margin-left:-5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  #trivia{
+  clear: both;
+  margin-left: 100px;
+  margin-top: 200px;
+  }
+  #trivia:hover{
+    opacity: 0.5;
+  }
+  #trivia h3{
+    font-size: 30px; 
+    height:30px;
+    width:225px;
+    padding: 20px;
+    color:purple;
+    margin-left:-20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  #gif{
+  margin-left: 400px;
+  position: relative;
+  top: -70px;
+  }
+  #gif:hover{
+    opacity: 0.3;
+  }
+  #gif h3{
+    font-size: 30px;
+    height:30px;
+    width:225px;
+    padding: 20px;
+    color:purple;
+    margin-left:-5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  .work{
+    width:150px;
+    height:200px;
+    float:left;
+    margin-top: 10px;
+    padding:1px;
+    border:2px solid #5d7054;
+  }
+  
+  
+  /*CONTACT- style attributes specific to the contact page */
+  #contact hr{
+    height:3px;
+    background-color: #738769;
+  }
+  .details{
+    margin-left: 10px;
+  }
+  .submit{
+    font-size: 20px;
+    background-color: #738769;
+    border:none;
+    color:white;
+    padding: 10px;
+    margin: 10px;
+  }
+  .submit:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  input{
+    font-size: 15px;
+  }
+  .formHead{
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .submit {
+      background-color:purple;
+    }
+    ul a {
+margin:1%;
+    }
+  }
